@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knitwear Shopping</title>
+    <link rel="icon" href="c:\Users\91934\Desktop\Shopping Cart free icons designed by Flat Icons.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Kaushan+Script&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav class="navbar">
+        <h1>KnitWear Shopping</h1>
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="collections.html">Collections</a></p>
+            <P class="navbar-link"><a href="contact.html">Contact us</a></P>
+        </div>
+        <div class="navbar-toggle" onclick="showAll()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+    <div class="side-navbar-links" >
+        <i class="fa-solid fa-xmark" onclick="hideAll()"></i>
+        <p class="side-navbar"><a href="index.html">Home</a></p>
+        <p class="side-navbar"><a href="collections.html">Collections</a></p>
+        <P class="side-navbar"><a href="contact.html">Contact us</a></P>
+    </div>
+    
+    <form class="contact-box">
+        <h1>Contact Us</h1>
+        <h5>Name</h5>
+        <input type="text" placeholder="enter a name">
+        <h5>Email</h5>
+        <input type="email" placeholder="enter a email">
+        <h5>Message</h5>
+        <textarea placeholder="enter a message"></textarea>
+        <button  class="s" onclick="submit1()">submit</button>
+    </form>
+    <div class="end">
+        <h2>THANK YOU!!!</h2>
+    </div>
+    <div class="footer">
+        <h3>Contact Us</h3>
+        <div class="contact">
+            <h7>+91 89765 54333</h7>
+            <i class="fa-brands fa-instagram">netwear</i>
+            <i class="fa-brands fa-facebook">netwear</i>
+            <i class="fa-brands fa-twitter">netwear</i>
+        </div>
+    </div>
+    <div class="footer-end"></div>
+    
+</body>
+<script src="contact.js">
+
+</script>
+
+</html>
